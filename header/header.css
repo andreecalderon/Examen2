@@ -1,1 +1,14 @@
-.
+.cuadro {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boton {
+    text-decoration: none;
+    background-color: rgb(6, 6, 29);
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    border-radius: 3px;
+}
