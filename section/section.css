@@ -1,1 +1,43 @@
-.
+.conSection {
+    width: 375px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cuadro1 {
+    border: 1px solid black;
+    background-color: gray;
+    height: 260px;
+    grid-column: 1;
+    margin-top: 17px;
+    margin-left: 10px;
+  
+
+}
+
+.cuadro2 {
+    border: 1px solid black;
+    background-color: gray;
+    height: 260px;
+    grid-column: 2;
+    margin-top: 17px;
+    margin-left: 10px;
+   
+
+}
+
+.cuadro3 {
+    border: 1px solid black;
+    background-color: gray;
+    height: 260px;
+    grid-column: 3;
+    margin-top: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
