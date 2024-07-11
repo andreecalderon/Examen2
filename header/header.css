@@ -1,9 +1,13 @@
 .cuadro {
+    max-width: 375px; 
+    width: 100%; 
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
 .boton {
     text-decoration: none;
     background-color: rgb(6, 6, 29);
@@ -12,3 +16,4 @@
     padding: 0.5rem 2rem;
     border-radius: 3px;
 }
+
